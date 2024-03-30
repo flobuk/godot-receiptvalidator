@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2o1stokyb7ft"]
+
+[ext_resource type="Script" path="res://addons/receipt_validator/receipt_validator.gd" id="1_35yjk"]
+
+[node name="ReceiptValidator" type="Node"]
+script = ExtResource("1_35yjk")
+app_id = "developerapptest"
+bid_android = "com.flobuk.SimpleIAPSystem"
+bid_ios = "com.flobuk.simpleiapsystem"
+inv_request_type = 2
+user_id = "user0"

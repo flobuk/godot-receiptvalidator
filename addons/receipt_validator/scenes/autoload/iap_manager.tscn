@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgmirr3y8jif8"]
+
+[ext_resource type="Script" path="res://addons/receipt_validator/iap_manager.gd" id="1_1jtx2"]
+[ext_resource type="Script" path="res://addons/receipt_validator/product_definition.gd" id="2_pu64x"]
+
+[sub_resource type="Resource" id="Resource_hhbrj"]
+script = ExtResource("2_pu64x")
+id = "coins"
+type = 0
+
+[sub_resource type="Resource" id="Resource_gfyt8"]
+script = ExtResource("2_pu64x")
+id = "no_ads_v2"
+type = 1
+
+[sub_resource type="Resource" id="Resource_v3w36"]
+script = ExtResource("2_pu64x")
+id = "abo_monthly"
+type = 2
+
+[node name="IAPManager" type="Node"]
+script = ExtResource("1_1jtx2")
+product_definitions = Array[ExtResource("2_pu64x")]([SubResource("Resource_hhbrj"), SubResource("Resource_gfyt8"), SubResource("Resource_v3w36")])
