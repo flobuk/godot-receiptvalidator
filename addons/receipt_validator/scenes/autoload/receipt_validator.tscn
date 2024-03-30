@@ -4,8 +4,4 @@
 
 [node name="ReceiptValidator" type="Node"]
 script = ExtResource("1_35yjk")
-app_id = "developerapptest"
-bid_android = "com.flobuk.SimpleIAPSystem"
-bid_ios = "com.flobuk.simpleiapsystem"
-inv_request_type = 2
-user_id = "user0"
+app_id = "YourAppId"
