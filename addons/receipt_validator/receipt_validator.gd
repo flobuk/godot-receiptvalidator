@@ -27,9 +27,9 @@ enum PurchaseState {
 }
 
 ## HTTPS endpoint for receipt validation. Do not change!
-const VALIDATION_ENDPOINT: String = "https://flobuk.com/validator/dev/receipt/"
+const VALIDATION_ENDPOINT: String = "https://flobuk.com/validator/v1/receipt/"
 ## HTTPS endpoint for requesting user inventory. Do not change!
-const USER_ENDPOINT: String = "https://flobuk.com/validator/dev/user/"
+const USER_ENDPOINT: String = "https://flobuk.com/validator/v1/user/"
 ## Key for saving last requested inventory timestamp within player data
 const LAST_INV_TIMESTAMP_KEY: String = "fbrv_inventory_timestamp"
 ## Location of where internal data file should be saved on the device
